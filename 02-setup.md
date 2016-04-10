@@ -82,17 +82,17 @@ Not all Windows computers will have a command line editor installed, so:
 > ## Installing nano editor on Windows {.callout}
 >
 > If your Windows PC doesn't have the nano editor installed, you can install it through
-> the [Chocolatey](xxx) package manager.
+> the [Chocolatey](https://chocolatey.org/) package manager.
 >
 > First install Chocolatey.
 > In a Windows command shell enter the following all on one line:
-> ~~~{.bash}
+> ~~~ {.bash}
 > C:\> @powershell -NoProfile -ExecutionPolicy unrestricted -Command "(iex ((new-object net.webclient).DownloadString('https://chocolatey.org/install.ps1'))) >$null 2>&1" && SET PATH=%PATH%;%ALLUSERSPROFILE%\chocolatey\bin
 > ~~~
 >
 > Then install nano:
 > 
-> ~~~{.bash}
+> ~~~ {.bash}
 > C:\> choco install nano
 > ~~~
 
