@@ -41,8 +41,10 @@ one large service well than to run many smaller services to the same standard.
 It's also easier for people to collaborate.  Using a popular service can help
 connect your project with communities already using the same service.
 
+Researchers at the University of Leeds can also make use of the local [Develop](http://develop.leeds.ac.uk) service. This is for researchers and software developers at Leeds who are unable to use an external service for legal or technical reasons. It provides Git and Subversion version control systems and the Trac wiki and issue tracking system.
+
 As an example,
-Software Carpentry [is on GitHub](https://github.com/swcarpentry/)
+The Software Carpentry project [is on GitHub](https://github.com/swcarpentry/)
 where you can find the [source for this page](https://github.com/swcarpentry/git-novice/blob/gh-pages/13-hosting.md).  Anyone with a GitHub account can suggest changes to this text.
 
 Using large, well-established services can also help you quickly take advantage
