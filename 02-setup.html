@@ -126,7 +126,8 @@ $ <span class="kw">git</span> config --global --unset https.proxy</code></pre></
 </div>
 <div class="panel-body">
 <p>If your Windows PC doesn’t have the nano editor installed, you can install it through the <a href="https://chocolatey.org/">Chocolatey</a> package manager.</p>
-<p>First install Chocolatey. In a Windows command shell enter the following all on one line: <sub>~</sub> {.bash} C:&gt; <span class="citation">@powershell</span> -NoProfile -ExecutionPolicy unrestricted -Command “(iex ((new-object net.webclient).DownloadString(‘https://chocolatey.org/install.ps1’))) &gt;$null 2&gt;&amp;1” &amp;&amp; SET PATH=%PATH%;%ALLUSERSPROFILE%<sub>~</sub></p>
+<p>First install Chocolatey. In a Windows command shell enter the following all on one line:</p>
+<div class="sourceCode"><pre class="sourceCode bash"><code class="sourceCode bash"><span class="kw">C</span>:<span class="dt">\&gt;</span> @powershell -NoProfile -ExecutionPolicy unrestricted -Command <span class="st">&quot;(iex ((new-object net.webclient).DownloadString(&#39;https://chocolatey.org/install.ps1&#39;))) &gt;</span><span class="ot">$null</span><span class="st"> 2&gt;&amp;1&quot;</span> <span class="kw">&amp;&amp;</span> <span class="kw">SET</span> PATH=%PATH%<span class="kw">;%ALLUSERSPROFILE%</span>\chocolatey\bin</code></pre></div>
 <p>Then install nano:</p>
 <div class="sourceCode"><pre class="sourceCode bash"><code class="sourceCode bash"><span class="kw">C</span>:<span class="dt">\&gt;</span> choco install nano</code></pre></div>
 </div>
