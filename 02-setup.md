@@ -96,4 +96,5 @@ Not all Windows computers will have a command line editor installed, so:
 > ~~~ {.bash}
 > C:\> choco install nano
 > ~~~
+
 hello
