@@ -73,4 +73,4 @@ to be shared can and should be stored in a version control system.
 
 *   [Reference](reference.html)
 *   [GitHub Cheatsheet](github-git-cheat-sheet.pdf)
-
+*   [Workshop presentation](https://docs.google.com/presentation/d/1OEqSxqrwMPg5ni976wIquQJWalS1Tee7gdeLbfFUi2c/edit?usp=sharing)
