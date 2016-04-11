@@ -72,4 +72,5 @@ to be shared can and should be stored in a version control system.
 ## Other Resources
 
 *   [Reference](reference.html)
+*   [GitHub Cheatsheet](github-git-cheat-sheet.pdf)
 

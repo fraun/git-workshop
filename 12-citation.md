@@ -9,7 +9,7 @@ minutes: 2
 > *   Make your work easy to cite
 
 You may want to include a file called `CITATION` or `CITATION.txt`
-that describes how to reference your project;
+that describes how to reference your project.
 the [one for Software
 Carpentry](https://github.com/swcarpentry/website/blob/gh-pages/CITATION)
 states:
@@ -41,3 +41,7 @@ July 2013.
   eprint      = {1307.5448}
 }
 ~~~
+
+It is common practice to include the citation in an open format such as 
+[BibTex](http://www.bibtex.org), but any format used in  your 
+research domain is appropriate. 
